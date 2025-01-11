@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Subscription & Ticket Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f8ff;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #ff6347;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ddd 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .main-content {
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        .main-content h2 {
+            color: #ff6347;
+            font-size: 2em;
+            margin-top: 0;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group button {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .form-group input[type="text"], .form-group input[type="email"] {
+            font-size: 1em;
+        }
+        .form-group button {
+            background: #ff6347;
+            color: #fff;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background: #ff4500;
+        }
+        footer {
+            background: #ff6347;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Travel Adventures</h1>
+        </div>
+    </header>
+    
+    <div class="container main-content">
+        <h2>Subscribe & Confirm Your Ticket</h2>
+        <p>Thank you for choosing our travel service! Please fill out the form below to confirm your ticket and subscribe to our travel updates.</p>
+        
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required />
+            </div>
+            <div class="form-group">
+                <button class="btn"><a href="wish.html">subscribe</a></button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Travel Adventures. All rights reserved.</p>
+    </footer>
+</body>
+</html>
